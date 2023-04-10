@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Processes Communicating Quiz</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/static/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Processes Communicating Quiz</h1>
+    </header>
+    <div class="container">
+      <div class="mode-toggle">
+        <input type="checkbox" id="toggle" class="toggle-switch" />
+        <label for="toggle" class="toggle-label">
+          <span class="toggle-text toggle-text--on">Light Mode</span>
+          <span class="toggle-text toggle-text--off">Dark Mode</span>
+        </label>
+      </div>
+      <div class="quiz-container">
+        <div class="quiz-settings">
+          <h2>Quiz Settings</h2>
+          <label for="num-questions">Number of Questions:</label>
+          <input type="number" id="num-questions" name="num-questions" min="1" max="25" required>
+          <button id="start-quiz-btn" class="quiz-btn">Start Quiz</button>
+        </div>
+        <div class="quiz-questions">
+          <h2>Quiz Questions</h2>
+          <div id="quiz-questions-container"></div>
+          <button id="submit-quiz-btn" class="quiz-btn">Submit Answers</button>
+        </div>
+        <div class="quiz-results">
+          <h2>Quiz Results</h2>
+          <p>Your Score: <span id="score"></span>%</p>
+          <div id="quiz-results-container"></div>
+          <button id="restart-quiz-btn" class="quiz-btn">Restart Quiz</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

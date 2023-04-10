@@ -1,0 +1,276 @@
+/* Default styles for the body element */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+/* Styles for the dark mode button */
+.dark-mode-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+
+/* Styles for the header */
+header {
+    background-color: #1e90ff;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Styles for the quiz container */
+.quiz-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for the quiz form */
+.quiz-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styles for the quiz input field */
+.quiz-input {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for the quiz button */
+.quiz-btn {
+    background-color: #1e90ff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+/* Styles for the quiz question */
+.quiz-question {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+/* Styles for the quiz options */
+.quiz-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+/* Styles for the quiz checkbox */
+.quiz-checkbox {
+    margin-right: 0.5rem;
+}
+
+/* Styles for dark mode */
+.dark-mode {
+    background-color: #1e90ff;
+    color: #fff;
+}
+
+/* Styles for elements in dark mode */
+.dark-mode header {
+    background-color: #000080;
+}
+
+.dark-mode .quiz-container {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode .quiz-form {
+    background-color: #f1f1f1;
+}
+
+/* and so on for other elements... */
+
+/* Styles for the quiz result */
+.quiz-result {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for the quiz result title */
+.quiz-result-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* Styles for the quiz result item */
+.quiz-result-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+/* Styles for the quiz result icon */
+.quiz-result-icon {
+    margin-right: 0.5rem;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+
+    /* Styles for the quiz container */
+    .quiz-container {
+        max-width: 90%;
+        padding: 1rem;
+    }
+
+    /* Styles for the quiz result */
+    .quiz-result {
+        max-width: 90%;
+        padding: 1rem;
+    }
+
+    /* Other styles as needed */
+}
+
+/* Default styles for the body element */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #e5f0ff;
+    /* light blue background */
+    color: #333;
+}
+
+/* Styles for the header */
+header {
+    background-color: #0b5fff;
+    /* blue header */
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Styles for the quiz container */
+.quiz-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for the quiz form */
+.quiz-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styles for the quiz input field */
+.quiz-input {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for the quiz button */
+.quiz-btn {
+    background-color: #0b5fff;
+    /* blue button */
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+/* Styles for the quiz question */
+.quiz-question {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+/* Styles for the quiz options */
+.quiz-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+/* Styles for the quiz checkbox */
+.quiz-checkbox {
+    margin-right: 0.5rem;
+}
+
+/* Styles for dark mode */
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Styles for elements in dark mode */
+.dark-mode header {
+    background-color: #222;
+}
+
+.dark-mode .quiz-container {
+    background-color: #444;
+}
+
+.dark-mode .quiz-form {
+    background-color: #555;
+}
+
+/* and so on for other elements... */
+
+/* Styles for the quiz result */
+.quiz-result {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for the quiz result title */
+.quiz-result-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* Styles for the quiz result item */
+.quiz-result-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+/* Styles for the quiz result icon

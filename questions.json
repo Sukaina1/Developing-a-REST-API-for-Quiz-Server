@@ -1,0 +1,110 @@
+{
+	  "questions": [
+	    {
+	      "question": "In inter-process communication (IPC), which mechanism allows two processes to communicate by sharing the same memory space?",
+	      "options": ["Shared memory", "Message passing", "Semaphores", "Signals"],
+	      "answer": "Shared memory"
+	    },
+	    {
+	      "question": "Which of the following algorithms is used to find the maximum flow in a network?",
+	      "options": ["Message passing ","Shared memory", "Signals", "Semaphores"],
+	      "answer": "Message passing"
+	    },
+	    {
+	      "question": "What type of communication involves a sender process that writes data to a communication channel and a receiver process that reads data from the channel?",
+	      "options": ["Message queue", "Pipe", "Socket", "Signal"],
+	      "answer": " Message queue"
+	    },
+	    {
+	      "question": "Which IPC method is used for communication between processes running on the same host?",
+	      "options": ["Message passing ","Shared memory", "Signals", "Semaphores"],
+	      "answer": "Message passing"
+	    },
+	    {
+	      "question": "Which IPC mechanism uses a fixed-size buffer to hold messages until the receiver is ready to read them?",
+	      "options": ["Message queue", "Pipe", "Socket", "Signal"],
+	      "answer": " Message queue"
+	    },
+	    {
+	      "question": "Which mechanism allows a process to signal another process to perform a certain action?",
+	      "options": ["Signal", "Shared memory", "Message queue", "Semaphore"],
+	      "answer": " Signal"
+	    },
+	    {
+	      "question": "Which IPC method allows multiple processes to read from and write to the same communication channel concurrently?",
+	      "options": ["Pipe", "Semaphore", "Message passing", "Shared memory"],
+	      "answer": "Pipe"
+	    },
+	    {
+	      "question": "What type of communication involves a sender process that writes data to a named file and a receiver process that reads data from the same file?",
+	      "options": ["Pipe", "FIFOs", "Socket", "Signal"],
+	      "answer": " Pipe "
+	    },
+	    {
+	      "question": "Which IPC mechanism uses a system of counting semaphores to coordinate the activities of multiple processes?",
+	      "options": ["Semaphore ", "Pipe", "Message passing", "Shared memory"],
+	      "answer": " Semaphore "
+	    },
+	    {
+	        "question": "Which IPC method uses a pair of file descriptors to allow communication between processes through a common buffer?",
+	        "options": ["Pipe ", "Semaphore", "Socket", "Signal"],
+	        "answer": " Pipe"
+	    },
+	    {
+	        "question": "What type of communication involves a sender process that writes data to a communication channel and multiple receiver processes that can read from the channel?",
+	        "options": ["Publish/subscribe ", "Pipe", "Message passing", "Signal"],
+	        "answer": "Message passing"
+	    },
+	    {
+	        "question": "Which IPC mechanism allows processes to communicate over a network?",
+	        "options": ["Socket", "Shared memory", "Message passing", "Semaphore"],
+	        "answer": " Socket "
+	    },
+	    {
+	        "question": "Which IPC method provides a way for processes to communicate using a common memory region that is mapped into their address spaces?",
+	        "options": ["Shared memory", "Message passing", "Pipe", "Signal"],
+	        "answer": "Shared memory "
+	    },
+	    {
+	        "question": "Which IPC mechanism allows a process to notify one or more other processes that an event has occurred?",
+	        "options": ["Signal", "Pipe", "Semaphore", "Message queue"],
+	        "answer": "Signal"
+	    },
+	    {
+	        "question": "Which of the following is not a type of cut in a flow network?",
+	        "options": ["Signal", "Semaphore", "Pipe", "Message queue"],
+	        "answer": "Signal"
+	    },
+	    {
+	        "question": "What type of communication involves a sender process that writes data to a communication channel and a receiver process that reads data from the channel in the order it was sent?",
+	        "options": ["FIFOs", "Pipe", "Message passing", "Signal"],
+	        "answer": " FIFOs "
+	    },
+	    {
+	        "question": "Which IPC method provides a way for processes to communicate using named communication channels that can be accessed by multiple processes?",
+	        "options": ["Socket", "Pipe", "Semaphore", "Message queue"],
+	        "answer": " Socket"
+	    },
+	    {
+	        "question": "Which IPC mechanism allows processes to send and receive messages of variable length?",
+	      "options": ["Message passing", "Semaphore", "Shared memory", "Signal"],
+	      "answer": " Message passing"
+	    },
+	    {
+			"question": "Which IPC method provides a way for processes to communicate using named communication channels that can be accessed by multiple processes?",
+	        "options": ["Socket", "Pipe", "Semaphore", "Message queue"],
+	        "answer": " Socket"
+	    },
+	    {
+	        "question": "What type of communication involves a sender process that writes data to a communication channel and a receiver process that reads data from the channel in the order it was sent?",
+	        "options": ["FIFOs ", "Pipe", "Message passing", "Signal"],
+	        "answer": " FIFOs "
+	    },
+	    {
+			"question": "Which IPC method provides a way for processes to communicate using a common memory region that is mapped into their address spaces?",
+	        "options": ["Shared memory", "Message passing", "Pipe", "Signal"],
+	        "answer": "  Shared memory "
+	    }
+
+	]
+	}
